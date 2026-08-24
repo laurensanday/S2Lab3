@@ -1,2 +1,0 @@
-ssh ec2-user@10.14.133.33
-pass: n3u3da!

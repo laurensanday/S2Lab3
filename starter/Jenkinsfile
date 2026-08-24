@@ -1,6 +1,10 @@
 pipeline {
     agent any
+    tools {
+        maven 'Jenkins'
+    }
     stages {
+    
         stage('Hello') {
             steps {
                 echo 'Hello, World!'
